@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color:hsl(233, 47%, 7%);
+}
+
+#card-section {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:20vh;
+}
+
+.card {
+    background-color:hsl(244, 38%, 16%);
+    display:flex;
+    justify-content:flex-end;
+    width:1000px;
+    height:auto;
+    border-radius:6px;
+}
+
+.card-image image {
+    overflow:auto;
+    object-fit:cover;
+    
+}
+
+.card-body {
+    padding:50px;
+    width:50%;
+}
+
+.stats {
+    color:white;
+    display:flex;
+    font-size:20px;
+}
+
+.stat-div {
+    width:100px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+#main-heading{
+    color:white;
+    font-weight:700;
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+h3 #accent {
+    color:hsl(277, 64%, 61%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p  {
+    font-family: 'Inter', sans-serif;
+    color:white;
+    font-size:15px;
+}
+
+#main-paragraph {
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom:50px;
+}
+
+.stat-headings {
+    color:hsla(0, 0%, 100%, 0.6);
+    font-size:15px;
+}
