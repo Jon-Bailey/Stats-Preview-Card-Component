@@ -9,9 +9,9 @@
 
 body {
   background-color: hsl(233, 47%, 7%);
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #card-section {
@@ -26,69 +26,65 @@ body {
   display: flex;
   width: 1100px;
   border-radius: 6px;
-  align-items:center;
-  overflow:auto;
+  align-items: center;
+  overflow: auto;
 }
 
 #main-heading {
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-weight: 700;
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  h3 #accent {
-    color: hsl(277, 64%, 61%);
-    font-family: "Inter", sans-serif;
-    font-weight:700;
-  }
-  
-  p {
-    font-family: "Inter", sans-serif;
-    font-weight:400;
-    color: white;
-    font-size: 15px;
-  }
-  
-  #main-paragraph {
-    color: hsla(0, 0%, 100%, 0.75);
-    margin-bottom: 50px;
-    line-height:1.7em;
-  }
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 #accent {
+  color: hsl(277, 64%, 61%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 15px;
+}
+
+#main-paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 50px;
+  line-height: 1.7em;
+}
 
 .card-image {
-  width:50%;
-  height:100%;
-  background-color: hsl(277, 64%, 61%);
+  width: 50%;
+  height: 100%;
 }
 
 .card-image img {
-    mix-blend-mode:multiply;
-    width:100%;
-    height:auto;
+  object-fit: cover;
+  width: 100%;
 }
 
-/*#overlay {
-    position: absolute;
-    mix-blend-mode:multiply;
-    background-color: hsl(277, 64%, 61%);
-    width: 540px;
-    height: auto;
-    overflow:auto;
-  }
-*/
+.overlay {
+  position: absolute;
+  background-color: hsla(277, 64%, 61%, 0.5);
+  width:550px;
+  height: 458px;
+  overflow:hidden;
+}
+
 .card-body {
   padding: 0px 100px 0px 60px;
   width: 50%;
-
 }
 
 .stats {
   display: flex;
   font-family: "Inter", sans-serif;
-  justify-content:space-between;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .stats h3 {
@@ -101,20 +97,18 @@ body {
 }
 
 .stat-headings {
-    font-family: "Lexend Deca", sans-serif;
-    font-weight:400;
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 12px;
-    margin-top:5px;
-  }
-
-
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  margin-top: 5px;
+}
 
 .attribution {
-    margin-top:100px;
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  margin-top: 100px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
